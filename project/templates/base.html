@@ -1,0 +1,54 @@
+$def with (page, title=None)
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>my site\
+		$if title: : $title\
+		</title>
+
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Image Search">
+	    <meta name="author" content="Sauce">
+		
+		<!-- Bootstrap Core CSS -->
+    	<link href="static/bootstrap.min.css" rel="stylesheet">
+
+    	<!-- Custom CSS -->
+    	<link href="static/main.css" rel="stylesheet">
+
+    	<!-- Custom Fonts -->
+	    <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	    <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+	 
+
+	</head>
+
+
+	<body>
+
+	<!-- Intro Header -->
+    <header class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        
+                        <h1><a href="/" id="textSearch">Image Search</a></h1>                        
+                        <p></p>
+                        $:page   
+                        <br/>
+
+                                                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+</body>
+</html>
